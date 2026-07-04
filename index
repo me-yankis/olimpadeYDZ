@@ -1,103 +1,68 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Участки. Дачи. Задачи</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Участки. Дачи. Задачи</title>
 
-    <style>
-        body{
-            margin:0;
-            font-family:Arial, sans-serif;
-            background:#f4f4f4;
-            color:#333;
-            text-align:center;
-        }
+<style>
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:linear-gradient(135deg,#4CAF50,#81C784);
+    color:white;
+    text-align:center;
+}
 
-        header{
-            background:linear-gradient(90deg,#2e7d32,#4caf50);
-            color:white;
-            padding:40px 20px;
-        }
+.container{
+    max-width:800px;
+    margin:80px auto;
+    background:rgba(255,255,255,.12);
+    padding:40px;
+    border-radius:20px;
+}
 
-        img{
-            width:300px;
-            max-width:90%;
-            border-radius:15px;
-            margin-top:25px;
-            box-shadow:0 5px 15px rgba(0,0,0,.3);
-        }
+h1{
+    font-size:52px;
+}
 
-        section{
-            max-width:800px;
-            margin:40px auto;
-            background:white;
-            padding:30px;
-            border-radius:15px;
-            box-shadow:0 5px 15px rgba(0,0,0,.1);
-        }
+p{
+    font-size:22px;
+    line-height:1.6;
+}
 
-        h1{
-            font-size:48px;
-        }
+a{
+    display:inline-block;
+    margin-top:20px;
+    padding:15px 30px;
+    background:#0088cc;
+    color:white;
+    text-decoration:none;
+    border-radius:10px;
+    font-size:20px;
+}
 
-        p{
-            font-size:20px;
-            line-height:1.6;
-        }
-
-        a.button{
-            display:inline-block;
-            margin-top:20px;
-            padding:15px 30px;
-            background:#0088cc;
-            color:white;
-            text-decoration:none;
-            border-radius:10px;
-            font-size:20px;
-        }
-
-        a.button:hover{
-            background:#0072ad;
-        }
-
-        footer{
-            margin:40px;
-            color:#777;
-        }
-    </style>
+a:hover{
+    background:#0072ad;
+}
+</style>
 </head>
 <body>
 
-<header>
-    <h1>Участки. Дачи. Задачи</h1>
-</header>
-
-<!-- Замените photo.jpg на свою фотографию -->
-<img src="photo.jpg" alt="Фото олимпиады">
-
-<section>
-    <h2>Об олимпиаде</h2>
+<div class="container">
+    <h1>🌿 Участки. Дачи. Задачи 🌿</h1>
 
     <p>
-        <strong>Участки. Дачи. Задачи</strong> — это олимпиада, в которой участники
-        ходят по участкам и СНТ, выполняя интересные задания и решая различные
-        задачи.
+        «Участки. Дачи. Задачи» — это олимпиада, в которой нужно
+        ходить по участкам и СНТ, выполняя интересные задания.
     </p>
 
     <p>
-        Чтобы зарегистрироваться на олимпиаду,
-        напишите в Telegram:
+        Чтобы зарегистрироваться, напишите в Telegram:
     </p>
 
-    <a class="button" href="https://t.me/olimpade_YDZ" target="_blank">
-        @olimpade_YDZ
-    </a>
-</section>
-
-<footer>
-    © 2026 • Участки. Дачи. Задачи
-</footer>
+    <a href="https://t.me/olimpade_YDZ">@olimpade_YDZ</a>
+</div>
 
 </body>
 </html>
